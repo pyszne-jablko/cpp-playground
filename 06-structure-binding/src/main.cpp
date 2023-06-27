@@ -73,6 +73,9 @@ int main(int /*argc*/, char** /*argv*/)
     std::cout << "  id = " << id << std::endl;
     std::cout << "  name = " << name << std::endl;
 
+    // const auto [ height_only ] = fun(); // Error, you have to use all fields
+                                           // from struct.
+
     return 0;
 }
 
